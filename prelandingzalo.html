@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://cdn2.vnwifi.com/templates/users/wifimarketingvnwifi/emo-ova-n/version_1/prelanding.html -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tiếp tục</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #DCE2E7;
+            overflow-x: hidden;
+            font-family: Arial;
+        }
+
+        #pane {
+            position: relative;
+            text-align: center;
+        }
+
+        #Container {
+            margin: 0 auto;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 600px;
+            max-width: 100%;
+            overflow: hidden;
+            z-index: 2;
+        }
+
+        #Container.dontmove {
+            top: 0% !important;
+            transform: translateY(0%) !important;
+        }
+
+        #link,
+        #link2 {
+
+            text-decoration: none;
+            padding: 10px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 10px;
+            width: 100%;
+            margin: 6px auto;
+        }
+
+        #app-block {
+            width: 54%;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        #logo {
+            display: block;
+            margin: 0 auto;
+            width: 95%;
+            max-width: 300px;
+            margin-bottom: 5px
+        }
+
+        #banner-img {
+            width: 55%;
+            margin: 0 auto;
+        }
+
+        @media screen and (min-width:740px) and (max-width:1023px) {
+            #banner-img {
+                width: 95%;
+                margin: 0 auto;
+            }
+
+            #app-block {
+                width: 94%;
+                margin: 0 auto;
+            }
+        }
+
+        @media screen and (max-width:739px) {
+            #banner-img {
+                width: 95%;
+                margin: 0 auto;
+            }
+
+            #logo {
+                max-width: 100%;
+            }
+
+            #app-block {
+                width: 94%;
+                margin: 0 auto;
+            }
+
+            #link,
+            #link2 {
+                display: block;
+                margin-bottom: 10px
+            }
+
+        }
+    </style>
+    <div id="Container">
+        <div id="app-block">
+            <a style="opacity: 100;" id="link" href="#"><img src="http://truongpham.id.vn/wifi/login/templates/Logo_Zalo.png"></a>
+        </div>
+    </div>
+    </div>    
+	<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        var paramsString = new URLSearchParams(window.location.search);
+        var id = paramsString.get('id');
+        var link = document.getElementById('link');
+        link.setAttribute('href', 'https://zalo.me/' + id);
+        
+        if (paramsString.get('auto') == '1') {
+            setTimeout(() => {
+                link.click();
+            }, 500); // 3000 milliseconds = 3 seconds
+        }
+    });
+</script>
+
+
+
+</body>
+
+</html>
