@@ -1,0 +1,243 @@
+body {
+  font-family:arial;
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+}
+
+#for-process-loading {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+  background-color:#fff;
+  opacity:0.5;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+}
+
+#for-process-loading-img {
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:101;
+  background-image:url('./templates/loading.gif');
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+.for-loading {
+  display:none;
+}
+
+#waiting5s {
+  margin:0;
+  padding:1px 0;
+  width:100%;
+  height:15px;
+  background-color:#ffea00;
+  position:fixed;
+  top:0;
+  left:0;
+  color:#003cff;
+  text-align:left;
+  font-size:10px;
+  font-family:Arial;
+  display:none;
+}
+
+.fb-fake-like {
+  margin:0 auto;
+  padding:0;
+  margin-bottom:10px;
+  width:57px;
+  height:24px;
+  background-image:url('./templates/button-facebook-like.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+.for-login-like-pane {
+  margin:0 auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px 0 0 0;
+  background-color:#f9fcfe;
+  border:1px solid #ccc;
+  border-left:none;
+  border-right:none;
+  width:100%;
+  display:none;
+}
+
+.for-login-like-pane p {
+  margin:0 0 10px 0;
+  padding:0;
+  color:#000;
+  font-family:Arial;
+  font-size:12px;
+  text-align:center;
+}
+
+.fb-page,
+.fb-page iframe[style],
+.fb-page span {
+  width:100% !important;
+}
+
+.fb-page {
+  text-align:center;
+}
+
+.fb_iframe_widget {
+  display:block !important;
+}
+
+.BG {
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:fixed;
+  z-index:1;
+  opacity:0;
+  filter:blur(1em) brightness(1.2);
+  -o-filter:blur(1em) brightness(1.2);
+  -ms-filter:blur(1em) brightness(1.2);
+  -moz-filter:blur(1em) brightness(1.2);
+  -webkit-filter:blur(1em) brightness(1.2);
+}
+
+#BG1 {
+  opacity:1;
+}
+
+/* Nội dung */
+
+    #Container {
+  margin:0 auto;
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+  max-width:600px;
+  overflow-x:hidden;
+  z-index:2;
+}
+
+.dontmove {
+  top:0;
+  transform:translateY(0);
+}
+
+.Banner {
+  margin:0 auto;
+  width:95%;
+  display:block;
+  margin-bottom:10px;
+}
+
+.Banner.Data {
+  position:absolute;
+  top:0;
+  left:100%;
+  z-index:2;
+  opacity:0;
+}
+
+#Banner1 {
+  opacity:1;
+  left:2.5%;
+}
+
+#scroll {
+  margin:0;
+  padding:0;
+  width:0%;
+  height:5px;
+  position:absolute;
+  top:-2px;
+  left:2.5%;
+  z-index:3;
+  background-color:#b41718;
+}
+
+#for-login-button2 {
+  margin:0 auto;
+  width:250px;
+  text-align:center;
+  padding:10px 0;
+  border-radius:10px;
+  color:#fff;
+  font-size:18px;
+  line-height:1;
+  cursor:pointer;
+  margin-top: 50px;
+}
+
+.btb1 {
+  background:#008CBA;
+}
+
+.btb1:hover {
+  background:#29b4e1;
+}
+
+.btb2 {
+  background:#333;
+}
+
+.btb2:hover {
+  background:#000;
+}
+
+input.question-item {
+  display:block;
+  margin:0 auto;
+  margin-bottom:10px;
+  padding:10px 0;
+  text-align:center;
+  font-size:15px;
+  border:1px solid #ccc;
+  border-radius:3px;
+  width:95%;
+}
+
+.question_label {
+  display:none;
+}
+
+#for-login-message {
+  margin:10px 0 0 0;
+  padding:0;
+  color:#000;
+  font-size:12px;
+  text-align:center;
+  display:none;
+}
+
+#txtName,
+#txtPhone {
+  display:none;
+}
+
+p.nd {
+	text-align:center;  
+	background-color:#ffffff;  
+	padding:5px 0 5px 0;  
+	border:1px solid #dee2e6;  
+	border-radius:5px;  
+	box-shadow:0 0 10px rgba(0,0,0,0.1);  
+	margin:10px;  
+	font-size:small;
+}
