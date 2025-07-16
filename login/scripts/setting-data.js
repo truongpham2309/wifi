@@ -25,7 +25,7 @@ SETTING DATA
 
         var _running_action_portal = "http://securelogin.arubanetworks.com/cgi-bin/login";
         var _running_langding_page_id = '1fb4adf3-26a9-44d6-b1f2-ec452bdb383a';
-        var _running_langding_page = 'http://wifi.itculi.net/prelandingzalo.html?id=benhvienxuyena&auto=1';
+        var _running_langding_page = 'https://wifi.itculi.net/prelandingzalo.html?id=benhvienxuyena&auto=1';
         var _running_langding_page_tracking = '0';
         var _running_wifi_login_names = ['cmd','user','password','Login'];
         var _running_wifi_login_values = ['authenticate','bvxa','bvxa123','J%27accepte+%7C+I+Agree'];
@@ -41,7 +41,7 @@ SETTING DATA
         
 
         // FIXED
-        var _running_action_host = 'http://wifi.itculi.net/login/';
+        var _running_action_host = 'https://wifi.itculi.net/login/';
         var _running_action_save_tracking_splash_page = '';
         var _running_action_save_tracking_langding_page = '';
         var _running_action_save_fb = '';
