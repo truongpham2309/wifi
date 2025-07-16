@@ -316,13 +316,13 @@
                 }
             };       
             if(_WaitingForIframeSubmitCount % 3 == 0){
-                _testIT.src = "http://checkinternet.vntik.com/vnwifilogo.png?rand=" + Math.floor((1 + Math.random()) * 0x10000);
+                _testIT.src = "https://checkinternet.vntik.com/vnwifilogo.png?rand=" + Math.floor((1 + Math.random()) * 0x10000);
             }
             else if(_WaitingForIframeSubmitCount % 3 == 1){
-                _testIT.src = "http://kenh14cdn.com/web_images/sprite-k14.20.png?rand=" + Math.floor((1 + Math.random()) * 0x10000);
+                _testIT.src = "https://kenh14cdn.com/web_images/sprite-k14.20.png?rand=" + Math.floor((1 + Math.random()) * 0x10000);
             }            
             else{
-                _testIT.src = "http://s1.vnecdn.net/vnexpress/restruct/i/v443/v2_2019/pc/graphics/logo.svg?rand=" + Math.floor((1 + Math.random()) * 0x10000);
+                _testIT.src = "https://s1.vnecdn.net/vnexpress/restruct/i/v443/v2_2019/pc/graphics/logo.svg?rand=" + Math.floor((1 + Math.random()) * 0x10000);
             }
         }
 
