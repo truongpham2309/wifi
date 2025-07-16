@@ -53,7 +53,7 @@ SETTING DATA
         var _running_action_create_login_code_sms = '';
         var _running_action_create_login_code_zalo = '';
         var _running_action_update_ip = '';
-        var _running_frame_login = 'http://wifi.itculi.net/frame-login.html';
+        var _running_frame_login = 'https://wifi.itculi.net/frame-login.html';
         var _running_action_save_basic_infor = '';
         
         var _post_type_form ='1';
