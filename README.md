@@ -1,2 +1,2 @@
-# wifi.truongpham.id.vn
+# wifi.itculi.net
 Wifi Platform
